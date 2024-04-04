@@ -4,7 +4,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.vasilyev.firebaseauth.di.scopes.ApplicationScope
 import kotlinx.coroutines.tasks.await
 
-@ApplicationScope
 object Auth {
 
     private val firebaseAuth = FirebaseAuth.getInstance()
