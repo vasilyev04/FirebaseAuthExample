@@ -8,7 +8,6 @@ import com.vasilyev.firebaseauth.domain.repository.AuthRepository
 import com.vasilyev.firebaseauth.domain.repository.AuthResult
 import javax.inject.Inject
 
-@ApplicationScope
 class AuthRepositoryImpl @Inject constructor(
     private val auth: Auth
 ): AuthRepository {
